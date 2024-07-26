@@ -3,13 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hello! My name is Yash Gosavi. I am undergrad student at University of Mumbai and I am currently learning graphics programming and heterogeneous processing in massively parallel computers.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:yashcgosavi@gmail.com)

@@ -7,4 +7,4 @@ Hello! My name is Yash Gosavi. I am undergrad student at University of Mumbai an
 
 ### Contact me
 
-[email@domain.com](mailto:yashcgosavi@gmail.com)
+[yashcgosavi@gmail.com](mailto:yashcgosavi@gmail.com)

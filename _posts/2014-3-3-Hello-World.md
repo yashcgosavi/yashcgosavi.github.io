@@ -95,7 +95,7 @@ int main( void ) {
 
 Many machines have more than one device so we need to select which one we want to use for these we have cudaGetDeviceCount() function. It gives us the number of devices present in our machine. And we can get the properties of this device from cudaGetDeviceProperties() function. Just like in Vulkan and win32 api here there is a big struct which shall be send as a refrence to this function and it will get populated with correct values. 
 
-`
+```c
 #include "common/book.h"
 
 int main( void ) 
@@ -145,7 +145,31 @@ int main( void )
         printf( "\n" );
     }
 }
-`
+```
 
 My output was:
 ![](https://i.ibb.co/ZT8Tzw7/Screenshot-2024-07-27-233749.png)
+
+## Using device properties
+
+Now that we can query them its quite annoying to loop through each property and find the relevent device which suites our needs, so cuda runtime has a feature. We have to fill the member variable with the property we desire and cuda get device will return the device id which is best as per the given struct. 
+
+```c
+#include "../common/book.h"
+int main( void ) 
+{
+  cudaDeviceProp prop;
+  int dev;
+  HANDLE_ERROR( cudaGetDevice( &dev ) );
+  printf( "ID of current CUDA device: %d\n", dev );
+  memset( &prop, 0, sizeof( cudaDeviceProp ) );
+  prop.major = 1;
+  prop.minor = 3;
+  HANDLE_ERROR( cudaChooseDevice( &dev, &prop ) );
+  printf( "ID of CUDA device closest to revision 1.3: %d\n", dev );
+  HANDLE_ERROR( cudaSetDevice( dev ) );
+  return(0);
+}
+```
+
+You can find the code [here](https://github.com/yashcgosavi/cuda)

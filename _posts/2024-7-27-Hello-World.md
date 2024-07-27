@@ -47,7 +47,7 @@ CUDA-style programming is also called HPP (Heterogeneous Parallel Programming) b
 The CPU code is just like normal C programming, while the GPU code is qualified by __global__ and __device__. When calling the function, we use the syntax `<<<block, thread>>>`.
 Example of a Kernel Function
 
-``
+```
 #include <iostream>
 
 __global__ void kernel(void) {
@@ -58,7 +58,7 @@ int main(void) {
     printf("Hello, World!\n");
     return 0;
 }
-``
+```
 
 A function that runs on the GPU is called a kernel.
 
@@ -71,7 +71,7 @@ We can pass pass parameters to kernel just like any other c program and we can a
 
 For copying we have cudaMemCpy() we need to mention the size and the directions as args. 
 
-`
+```
 #include <iostream>
 #include "book.h"
 __global__ void add( int a, int b, int *c ) {
@@ -90,7 +90,7 @@ int main( void ) {
   cudaFree( dev_c );
   return 0;
 }
-`
+```
 
 ## Querying Device
 

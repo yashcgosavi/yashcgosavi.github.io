@@ -95,7 +95,7 @@ int main( void ) {
 
 Many machines have more than one device so we need to select which one we want to use for these we have cudaGetDeviceCount() function. It gives us the number of devices present in our machine. And we can get the properties of this device from cudaGetDeviceProperties() function. Just like in Vulkan and win32 api here there is a big struct which shall be send as a refrence to this function and it will get populated with correct values. 
 
-```cuda
+`
 #include "common/book.h"
 
 int main( void ) 
@@ -145,7 +145,7 @@ int main( void )
         printf( "\n" );
     }
 }
-```
+`
 
 My output was:
 ![](https://i.ibb.co/ZT8Tzw7/Screenshot-2024-07-27-233749.png)

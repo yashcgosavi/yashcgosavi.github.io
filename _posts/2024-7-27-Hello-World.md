@@ -71,7 +71,7 @@ We can pass pass parameters to kernel just like any other c program and we can a
 
 For copying we have cudaMemCpy() we need to mention the size and the directions as args. 
 
-```c
+`
 #include <iostream>
 #include "book.h"
 __global__ void add( int a, int b, int *c ) {
@@ -90,7 +90,7 @@ int main( void ) {
   cudaFree( dev_c );
   return 0;
 }
-```
+`
 
 ## Querying Device
 

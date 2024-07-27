@@ -147,8 +147,7 @@ int main( void )
 }
 ```
 
-My output was:
-![](https://i.ibb.co/ZT8Tzw7/Screenshot-2024-07-27-233749.png)
+My output was: [output](https://i.ibb.co/ZT8Tzw7/Screenshot-2024-07-27-233749.png)
 
 ## Using device properties
 

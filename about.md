@@ -3,9 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-## Yash Gosavi
-
-Hi, I am currently learning Graphics programming and HPP :)
+Hi, I am Yash Gosavi currently learning Graphics programming and HPP :)
 
 ## Education
 

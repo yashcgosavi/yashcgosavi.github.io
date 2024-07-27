@@ -3,15 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
-**Yash Gosavi**
+## Yash Gosavi
 
-B-4/402, Prajakt CHS, Ashokvan• Mumbai, 400066• yashcgosavi@gmail.com • +91 7400117929 
+Hi, I am currently learning Graphics programming and HPP :)
 
-**Education**
+## Education
 
-**MUMBAI UNIVERSITY** Mumbai, MH Bachelors in Engineering (BE),Information technology (IT). CGPA: 8.9 2021-2025
+### MUMBAI UNIVERSITY
+Mumbai, MH Bachelors in Engineering (BE),Information technology (IT). CGPA: 8.9 2021-2025
 
-**Skills & Interests**
+## Skills & Interests
 
 **Machine Learning:** TensorFlow, Pytorch, Pandas, **Languages:** Python, Java, Rust, C++, CUDA Numpy, Pillow, Matplotlib Seaborn, OpenCV, **Data Science:** Tableau, PowerBI, SQL Hugging Face **Tools:** Git, Postman, Git
 
@@ -38,7 +39,7 @@ B-4/402, Prajakt CHS, Ashokvan• Mumbai, 400066• yashcgosavi@gmail.com • +9
 - Implemented OCR for scanning doctor certificates and included an announcement group for National Agencies to declare new policies or create awareness
 - Project selected in college round of the hackathon
 
-**Projects**
+## Projects
 
 **Brain Tumor Detection Model**
 

@@ -30,14 +30,14 @@ title: 'CUDA: A first program'
 - CUDA is supported by only certain GPUs.
 
 ### Example of a Simple CUDA Program
-```c
+
+```
 #include "../common/book.h"
 
 int main(void) {
     printf("Hello, World!\n");
     return 0;
 }
-
 ```
 
 - This is a perfectly valid CUDA program. When given to nvcc, it is compiled into an object file.

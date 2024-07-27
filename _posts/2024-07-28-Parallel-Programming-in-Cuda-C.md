@@ -1,5 +1,6 @@
 ---
 layout: post
+title: 'Parallel Programming in CUDA'
 ---
 ## A New Post
 

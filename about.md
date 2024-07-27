@@ -8,7 +8,8 @@ Hi, I am Yash Gosavi currently learning Graphics programming and HPP :)
 ## Education
 
 ### MUMBAI UNIVERSITY
-Mumbai, MH Bachelors in Engineering (BE),Information technology (IT). CGPA: 8.9 2021-2025
+Bachelors in Engineering (BE),Information technology (IT). 
+CGPA: 8.9 2021-2025
 
 ## Skills & Interests
 

@@ -5,7 +5,9 @@ permalink: /about/
 ---
 **Yash Gosavi**
 
-B-4/402, Prajakt CHS, Ashokvan• Mumbai, 400066• yashcgosavi@gmail.com • +91 7400117929 **Education**
+B-4/402, Prajakt CHS, Ashokvan• Mumbai, 400066• yashcgosavi@gmail.com • +91 7400117929 
+
+**Education**
 
 **MUMBAI UNIVERSITY** Mumbai, MH Bachelors in Engineering (BE),Information technology (IT). CGPA: 8.9 2021-2025
 

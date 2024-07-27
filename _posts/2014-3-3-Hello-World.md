@@ -148,4 +148,4 @@ int main( void )
 ```
 
 My output was:
-![](https://ibb.co/0JMJyWv)
+![](https://i.ibb.co/ZT8Tzw7/Screenshot-2024-07-27-233749.png)

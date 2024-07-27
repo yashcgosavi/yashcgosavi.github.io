@@ -3,8 +3,6 @@ layout: post
 title: 'CUDA: A first program'
 ---
 
-# CUDA Learning Notes
-
 **Reference Book:** CUDA by Example
 
 ## Introduction
@@ -32,7 +30,7 @@ title: 'CUDA: A first program'
 - CUDA is supported by only certain GPUs.
 
 ### Example of a Simple CUDA Program
-`c
+```c
 #include "../common/book.h"
 
 int main(void) {
@@ -40,7 +38,7 @@ int main(void) {
     return 0;
 }
 
-`
+```
 
 This is a perfectly valid CUDA program. When given to nvcc, it is compiled into an object file.
 

@@ -46,7 +46,8 @@ int main(void) {
 CUDA-style programming is also called HPP (Heterogeneous Parallel Programming) because we program both the CPU and the GPU.
 The CPU code is just like normal C programming, while the GPU code is qualified by __global__ and __device__. When calling the function, we use the syntax `<<<block, thread>>>`.
 Example of a Kernel Function
-```cuda
+
+``
 #include <iostream>
 
 __global__ void kernel(void) {
@@ -57,7 +58,7 @@ int main(void) {
     printf("Hello, World!\n");
     return 0;
 }
-```
+``
 
 A function that runs on the GPU is called a kernel.
 

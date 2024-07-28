@@ -1,3 +1,8 @@
+---
+layout: post
+title: 'CUDA: A first program'
+---
+
 These are my notes on Ray Tracing in Weekend
 
 ## A New Post

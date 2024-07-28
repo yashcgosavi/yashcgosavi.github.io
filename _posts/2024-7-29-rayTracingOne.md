@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CUDA: A first program'
+title: 'Ray Tracing One'
 ---
 
 These are my notes on Ray Tracing in Weekend

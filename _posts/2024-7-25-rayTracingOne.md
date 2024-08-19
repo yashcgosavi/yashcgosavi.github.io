@@ -3,6 +3,8 @@ layout: post
 title: 'Ray Tracing One'
 ---
 
+*Something*
+
 These are my notes on Ray Tracing in Weekend
 
 ## A New Post

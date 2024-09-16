@@ -16,4 +16,3 @@ I am writing this blog to get things clear and set up the path for months ahead.
 If I have some more time to spare you may find notes of MIT OCW and Sam Yeuleck of UoU lectures. Once we have a firm understanding of the 3D fundamentals, we shall start learning and API. Although there is still time for that I am thinking of using DX12 but maybe by that time DX13 may have rolled out. 
 
 Maybe the ray tracing blogs will contain some code as they don't require knowledge of an API but once we start GPU gems again our focus will be on the theory. You may also find some posts on Computer Performance and architecture, C++ (Focused on the language and not on implementing the rendering pipeline.) and Algorithms and Data Structures.
-

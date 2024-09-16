@@ -1,3 +1,8 @@
+---
+layout: post
+title: A fresh start
+---
+
 I am writing this blog to get things clear and set up the path for months ahead. My primary goal is going to be preparing for the GATE examination for Masters. But since I have developed interest in computer graphics and have spent some time in it I will be spending an hour studying it. More like a recreation study session. This blog lays down the approach that I will be following and what is going to be my main focus. After reading rants and discussions on hacker news and reddit, I have concluded that the theory is way more important than the understanding of an API. So rather than focusing on APIs like OpenGL and DX 11, my blogs will be more about the theory of how things are done. The materials that I will be using are 
 
 1. Tiger Book
